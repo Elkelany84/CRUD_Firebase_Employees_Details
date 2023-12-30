@@ -1,4 +1,5 @@
 import 'package:crud_firebase_employees_details/model/constants.dart';
+import 'package:crud_firebase_employees_details/pages/employee.dart';
 import 'package:flutter/material.dart';
 
 class Home extends StatefulWidget {
@@ -13,7 +14,12 @@ class _HomeState extends State<Home> {
   Widget build(BuildContext context) {
     return Scaffold(
       floatingActionButton: FloatingActionButton(
-        onPressed: () {},
+        onPressed: () {
+          Navigator.push(
+            context,
+            MaterialPageRoute(builder: (context) => Employee()),
+          );
+        },
         child: Icon(Icons.add),
       ),
       appBar: AppBar(
