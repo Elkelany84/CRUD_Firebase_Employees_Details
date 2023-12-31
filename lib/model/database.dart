@@ -1,7 +1,7 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 
 class DatabaseMethods {
-  //Add to FirebaseFirestore
+  //Create or Add to FirebaseFirestore
   Future addEmployeeDetails(
       Map<String, dynamic> employeeInfoMap, String id) async {
     return await FirebaseFirestore.instance
