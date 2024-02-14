@@ -4,6 +4,7 @@
 
 ![add](https://github.com/Elkelany84/CRUD_Firebase_Employees_Details/assets/74449997/3794b894-620b-45ec-a32f-911575a75d89)
 
+![edit](https://github.com/Elkelany84/CRUD_Firebase_Employees_Details/assets/74449997/c90aa254-97d7-4dc3-8c4a-c4efdfa857f5)
 
 
 A new Flutter project.
